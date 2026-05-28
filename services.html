@@ -1,0 +1,1401 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Services | Kaya Experience Limited</title>
+    <meta name="author" content="Kaya Experience Limited">
+    <meta name="description" content="Explore premium services from Kaya Experience Limited: luxury safaris, beach escapes, transport, event travel, hospitality support and bespoke East African journeys.">
+    <meta name="keywords" content="Kaya Experience Limited, luxury safari services, East Africa travel, Kenya tours, bespoke travel support">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montez&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .hero-services {
+            position: relative;
+            overflow: hidden;
+            min-height: 780px;
+            display: flex;
+            align-items: center;
+            background: #010101;
+        }
+
+        .hero-services::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: url('assets/img/tour/ke3.jpeg') center/cover no-repeat;
+            transform: scale(1);
+            animation: hero-scale 18s ease-in-out infinite;
+            filter: saturate(1.1) contrast(1.05);
+        }
+
+        .hero-services::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.72) 100%), radial-gradient(circle at top right, rgba(181, 140, 80, 0.18), transparent 35%);
+        }
+
+        @keyframes hero-scale {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.06); }
+        }
+
+        .hero-services .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 720px;
+        }
+
+        .hero-services .hero-content h1 {
+            color: #fff;
+            font-size: clamp(2.8rem, 5vw, 4.8rem);
+            line-height: 1.03;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .hero-services .hero-content p {
+            color: rgba(255, 255, 255, 0.88);
+            margin-top: 1.6rem;
+            margin-bottom: 2.6rem;
+            font-size: 1.08rem;
+            line-height: 1.85;
+            max-width: 680px;
+        }
+
+        .hero-services .hero-actions .th-btn {
+            min-width: 220px;
+        }
+
+        .hero-services .hero-meta {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1.6rem;
+            margin-top: 3.4rem;
+        }
+
+        .hero-services .hero-meta .meta-card {
+            padding: 1.5rem 1.6rem;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #fff;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-services .hero-meta .meta-card strong {
+            display: block;
+            font-size: 2rem;
+            font-weight: 800;
+            color: #f5e6d3;
+        }
+
+        .scroll-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.85rem;
+            margin-top: 2.5rem;
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 0.95rem;
+            letter-spacing: 0.08em;
+        }
+
+        .scroll-indicator span {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.55);
+            transition: transform 0.3s ease;
+        }
+
+        .scroll-indicator:hover span {
+            transform: translateY(4px);
+        }
+
+        .service-card, .support-card, .feature-card, .testimonial-card {
+            border-radius: 28px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 22px 70px rgba(15, 23, 19, 0.08);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .service-card:hover,
+        .support-card:hover,
+        .feature-card:hover,
+        .testimonial-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 32px 90px rgba(15, 23, 19, 0.12);
+        }
+
+        .service-card img,
+        .feature-card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+
+        .service-card .card-body,
+        .support-card .card-body,
+        .feature-card .card-body,
+        .testimonial-card .card-body,
+        .faq-card {
+            padding: 2rem;
+        }
+
+        .service-card .card-label,
+        .support-card .card-label,
+        .feature-card .card-label {
+            display: inline-flex;
+            gap: 0.8rem;
+            align-items: center;
+            color: #b58c50;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            font-size: 0.78rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .service-card h3,
+        .support-card h3,
+        .feature-card h3,
+        .testimonial-card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.45rem;
+            color: #1a1a1a;
+            line-height: 1.25;
+            font-weight: 800;
+        }
+
+        .service-card p,
+        .support-card p,
+        .testimonial-card p,
+        .feature-card p {
+            color: #5f5f5f;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-size: 0.97rem;
+        }
+
+        .service-card .price-list,
+        .support-card .price-list,
+        .feature-card .package-meta {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem;
+        }
+
+        .service-card .price-list li,
+        .support-card .price-list li,
+        .feature-card .package-meta li {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            color: #333;
+            margin-bottom: 0.95rem;
+            font-weight: 600;
+        }
+
+        .service-card .price-list li span,
+        .support-card .price-list li span {
+            color: #b58c50;
+            font-weight: 700;
+        }
+
+        .service-card .card-action,
+        .support-card .card-action,
+        .feature-card .card-action {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .service-card .card-action a,
+        .support-card .card-action a,
+        .feature-card .card-action a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.88rem 1.6rem;
+            border-radius: 999px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            background: #b58c50;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .service-card .card-action a:hover,
+        .support-card .card-action a:hover,
+        .feature-card .card-action a:hover {
+            background: #8e6f41;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-heading .sub-title {
+            display: inline-flex;
+            color: #b58c50;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            font-size: 0.82rem;
+            margin-bottom: 1rem;
+        }
+
+        .section-heading h2 {
+            font-size: clamp(2rem, 3.5vw, 3.4rem);
+            color: #131313;
+            line-height: 1.15;
+            font-weight: 800;
+        }
+
+        .section-heading p {
+            color: #5d5d5d;
+            max-width: 720px;
+            margin: 1.4rem auto 0;
+            font-size: 1rem;
+            line-height: 1.75;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1.8rem;
+        }
+
+        .feature-tile {
+            border-radius: 24px;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(181, 140, 80, 0.18);
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-tile:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 50px rgba(15, 23, 19, 0.08);
+        }
+
+        .feature-tile i {
+            font-size: 2.1rem;
+            color: #b58c50;
+            margin-bottom: 1rem;
+        }
+
+        .feature-tile h4 {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #1a1a1a;
+        }
+
+        .feature-tile p {
+            color: #5e5e5e;
+            line-height: 1.75;
+        }
+
+        .testimonial-card {
+            border: 1px solid rgba(181, 140, 80, 0.18);
+            background: linear-gradient(180deg, #ffffff 0%, #f9f4e9 100%);
+        }
+
+        .testimonial-card .rating {
+            display: inline-flex;
+            gap: 0.3rem;
+            margin-bottom: 1.2rem;
+            color: #b58c50;
+        }
+
+        .testimonial-card blockquote {
+            margin: 0 0 1.6rem;
+            color: #444;
+            font-size: 1rem;
+            line-height: 1.9;
+        }
+
+        .testimonial-card .author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .testimonial-card .author-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: #e8d8b3;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #1a1a1a;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        .testimonial-card .author-details h5,
+        .testimonial-card .author-details span {
+            margin: 0;
+        }
+
+        .testimonial-card .author-details h5 {
+            font-size: 1.03rem;
+            font-weight: 800;
+            color: #1a1a1a;
+        }
+
+        .testimonial-card .author-details span {
+            color: #777;
+            font-size: 0.92rem;
+        }
+
+        .faq-card {
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            background: #fff;
+        }
+
+        .accordion-button {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            padding: 1.8rem 2rem;
+        }
+
+        .booking-cta {
+            position: relative;
+            overflow: hidden;
+            border-radius: 32px;
+            background: linear-gradient(135deg, rgba(15, 23, 19, 0.95), rgba(25, 31, 33, 0.98));
+            color: #fff;
+            padding: 4rem 2rem;
+        }
+
+        .booking-cta::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at top left, rgba(181, 140, 80, 0.2), transparent 25%);
+            pointer-events: none;
+        }
+
+        .booking-cta .cta-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .booking-cta h2 {
+            color: #fff;
+            font-size: clamp(2rem, 4vw, 3.6rem);
+            margin-bottom: 1rem;
+            line-height: 1.08;
+        }
+
+        .booking-cta p {
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 680px;
+            font-size: 1.05rem;
+            line-height: 1.85;
+            margin-bottom: 2.4rem;
+        }
+
+        .booking-cta .cta-actions {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        @media (max-width: 991px) {
+            .hero-services {
+                min-height: 760px;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+
+            .hero-services .hero-meta {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-grid,
+            .booking-cta .cta-actions {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .service-card img,
+            .feature-card img {
+                height: 220px;
+            }
+
+            .hero-services .hero-content h1 {
+                font-size: 2.8rem;
+            }
+
+            .booking-cta {
+                padding: 3rem 1.4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="magic-cursor relative z-10">
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+    </div>
+
+    <div class="sidemenu-wrapper sidemenu-info">
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+            <div class="widget">
+                <div class="th-widget-about">
+                    <div class="about-logo">
+                        <a href="index.html"><img src="assets/img/logo3.svg" alt="Kaya Experience Limited"></a>
+                    </div>
+                    <p class="about-text">Kaya Experience Limited blends local wisdom, premium hospitality and unforgettable East African journeys into every service we deliver.</p>
+                    <div class="th-social">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-search-box">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="Search premium services">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
+
+    <div class="th-menu-wrapper onepage-nav">
+        <div class="th-menu-area text-center">
+            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/logo3.svg" alt="Kaya Experience Limited"></a>
+            </div>
+            <div class="th-mobile-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tour.html">Tours</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header class="th-header header-layout1">
+        <div class="header-top">
+            <div class="container th-container">
+                <div class="row justify-content-center justify-content-xl-between align-items-center">
+                    <div class="col-auto d-none d-md-block">
+                        <div class="header-links">
+                            <ul>
+                                <li class="d-none d-xl-inline-block"><i class="fa-sharp fa-regular fa-location-dot"></i><span>Nairobi, Kenya</span></li>
+                                <li class="d-none d-xl-inline-block"><i class="fa-regular fa-clock"></i><span>East Africa | Bespoke departures</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-right">
+                            <div class="header-links">
+                                <ul>
+                                    <li class="d-none d-md-inline-block"><a href="faq.html">FAQ</a></li>
+                                    <li class="d-none d-md-inline-block"><a href="contact.html">Support</a></li>
+                                    <li><a href="#booking-cta" class="popup-content">Book<i class="fa-regular fa-user"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <div class="menu-area">
+                <div class="container th-container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="assets/img/logo3.svg" alt="Kaya Experience Limited"></a>
+                            </div>
+                        </div>
+                        <div class="col-auto me-xl-auto">
+                            <nav class="main-menu d-none d-xl-inline-block">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="tour.html">Tours</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a class="active" href="services.html">Services</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <button type="button" class="th-menu-toggle d-block d-xl-none"><i class="far fa-bars"></i></button>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="header-button">
+                                <a href="#booking-cta" class="th-btn style3 th-icon">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-bg" data-mask-src="assets/img/logo_bg_mask.png"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-services">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-8 col-lg-10">
+                    <div class="hero-content">
+                        <span class="page-tag" style="display:inline-flex; align-items:center; gap:.6rem; background:rgba(181, 140, 80, 0.18); color:#f5e6d3; padding:12px 22px; border-radius:999px; letter-spacing:2px; text-transform:uppercase; font-size:.82rem; border:1px solid rgba(181, 140, 80, 0.28);">Luxury travel services</span>
+                        <h1>Explore East Africa With Kaya</h1>
+                        <p>Premium safari services, coastal escapes, cultural journeys and elite travel support designed for discerning travellers who seek the highest standard of East African hospitality.</p>
+                        <div class="d-flex flex-wrap align-items-center gap-3 hero-actions">
+                            <a href="#booking-cta" class="th-btn style3 th-icon" style="padding:18px 40px; font-size:1rem;"><i class="fas fa-arrow-right me-2"></i>Book Now</a>
+                            <a href="https://wa.me/254701234567?text=Hi%20Kaya%20Experience,%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20services" class="th-btn style1 th-icon" style="padding:18px 40px; font-size:1rem; background:#25D366; border:none;"><i class="fab fa-whatsapp me-2"></i>WhatsApp Inquiry</a>
+                        </div>
+                        <div class="hero-meta">
+                            <div class="meta-card">
+                                <strong>15+</strong>
+                                Tailored East African journeys
+                            </div>
+                            <div class="meta-card">
+                                <strong>24/7</strong>
+                                Dedicated booking support
+                            </div>
+                            <div class="meta-card">
+                                <strong>500+</strong>
+                                Trusted luxury travellers
+                            </div>
+                        </div>
+                        <a href="#services" class="scroll-indicator"><span><i class="fas fa-chevron-down"></i></span>Scroll to services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="space" style="background: linear-gradient(135deg, #f7f2eb 0%, #fcfaf8 100%);">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-5">
+                        <div style="border-radius:28px; overflow:hidden; box-shadow:0 30px 90px rgba(15, 23, 19, 0.08);">
+                            <img loading="lazy" src="assets/img/tour/ke2.jpeg" alt="Kaya Experience premium travel services" style="width:100%; height:100%; object-fit:cover; min-height:520px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div style="max-width:660px;">
+                            <span class="sub-title">Why trust Kaya Experience</span>
+                            <h2 class="sec-title">Authentic, personalized luxury travel across Kenya and East Africa</h2>
+                            <p>As a premium travel architect, Kaya Experience Limited combines local knowledge, refined hospitality and seamless logistics so every journey feels effortless, emotional and unforgettable.</p>
+                            <p>From private game drives to exclusive beach resorts and polished corporate travel services, we design every itinerary to reflect your passions, preferences and sense of wonder.</p>
+                            <div class="row gx-4 gy-4 mt-4">
+                                <div class="col-md-6">
+                                    <div style="padding:24px; border-radius:20px; background:rgba(181, 140, 80, 0.08); border:1px solid rgba(181, 140, 80, 0.18);">
+                                        <h5 style="margin-bottom:10px; font-weight:800; font-size:1.1rem; color:#1a1a1a;">Custom itineraries</h5>
+                                        <p style="margin:0; color:#5f5f5f; line-height:1.75;">Journeys designed around your interests, pace and wellbeing.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div style="padding:24px; border-radius:20px; background:rgba(181, 140, 80, 0.08); border:1px solid rgba(181, 140, 80, 0.18);">
+                                        <h5 style="margin-bottom:10px; font-weight:800; font-size:1.1rem; color:#1a1a1a;">Trusted local experts</h5>
+                                        <p style="margin:0; color:#5f5f5f; line-height:1.75;">Experienced guides, hospitality partners and transport teams fluent in East Africa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="contact.html#inquiry-form" class="th-btn style3 th-icon" style="margin-top:2.5rem; padding:16px 38px;">Speak to a specialist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="space" style="background: linear-gradient(135deg, rgba(5, 5, 5, 0.02) 0%, rgba(181, 140, 80, 0.05) 100%);">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="sub-title">Core Tour Services</span>
+                    <h2>Signature East African journeys crafted for luxury travel</h2>
+                    <p>Every service is designed to feel cinematic, deeply local and perfectly executed. Choose from our premium tours and let our team handle every detail.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-4">
+                        <article class="service-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_1.jpg" alt="Wildlife safari in Maasai Mara">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-binoculars"></i>Wildlife Safaris</span>
+                                <h3>Wildlife Safaris</h3>
+                                <p>Guided game drives across Maasai Mara, Amboseli, Tsavo, Samburu and Lake Nakuru with luxury lodge stays, private vehicle access and expert ranger guides.</p>
+                                <ul class="price-list">
+                                    <li>3-Day Maasai Mara Safari <span>KES 145,000</span></li>
+                                    <li>5-Day Amboseli &amp; Tsavo Safari <span>KES 265,000</span></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">View Itinerary</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="service-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_3.jpg" alt="Luxury beach holiday in Diani">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-umbrella-beach"></i>Beach Holidays</span>
+                                <h3>Beach Holidays</h3>
+                                <p>Luxury coastal escapes to Diani, Watamu, Mombasa and Lamu with private villa retreats, water sports and coastal dining experiences.</p>
+                                <ul class="price-list">
+                                    <li>Diani Beach Escape <span>KES 95,000</span></li>
+                                    <li>Lamu Luxury Retreat <span>KES 185,000</span></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Book Your Escape</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="service-card">
+                            <img loading="lazy" src="assets/img/tour/ke5.jpeg" alt="Mount Kenya trekking expedition">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-mountain"></i>Mountain Trekking</span>
+                                <h3>Mountain Trekking</h3>
+                                <p>Guided hiking and climbing expeditions on Mount Kenya and Mount Elgon with expert guides, camping logistics and a focus on comfort and safety.</p>
+                                <ul class="price-list">
+                                    <li>Mount Kenya Expedition <span>KES 120,000</span></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Reserve Your Climb</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="service-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_13.jpg" alt="Cultural tour with Maasai community">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-users"></i>Cultural Tours</span>
+                                <h3>Cultural Tours</h3>
+                                <p>Authentic community visits with Maasai, Samburu, Turkana and Kisii storytellers, traditional dances, cuisine and hands-on village experiences.</p>
+                                <ul class="price-list">
+                                    <li>Cultural Heritage Tour <span>KES 45,000</span></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Discover Local Life</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="service-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_9.jpg" alt="Nairobi city excursion">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-city"></i>City Excursions</span>
+                                <h3>City Excursions</h3>
+                                <p>Day tours in Nairobi and Mombasa with curated markets, museums, historical landmarks and premium urban dining experiences.</p>
+                                <ul class="price-list">
+                                    <li>Nairobi City Experience <span>KES 18,000</span></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Plan a City Day</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space" style="background: #fff;">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="sub-title">Logistics &amp; Transport</span>
+                    <h2>Reliable mobility and travel coordination for every journey</h2>
+                    <p>From luxury 4x4s and airport pickups to domestic charter flights and train coordination, we keep every connection smooth and beautifully managed.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_5.jpg" alt="4x4 safari land cruiser rental">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-car-side"></i>Vehicle Rental</span>
+                                <h3>Vehicle Rental</h3>
+                                <p>Choose from 4x4 Safari Land Cruisers, spacious tour vans and executive sedans for private travel, transfers and group journeys.</p>
+                                <ul class="price-list">
+                                    <li>Safari Land Cruiser <span>KES 25,000/day</span></li>
+                                    <li>Tour Van <span>KES 15,000/day</span></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Reserve Vehicle</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_11.jpg" alt="luxury airport transfer service">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-plane-arrival"></i>Airport Transfers</span>
+                                <h3>Airport Transfers</h3>
+                                <p>Luxury airport pickups and drop-offs with professional chauffeurs, meet-and-greet service and luggage assistance.</p>
+                                <ul class="price-list">
+                                    <li>Nairobi Airport Transfer <span>KES 6,500</span></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Arrange Transfer</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_7.jpg" alt="domestic flight booking service">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-plane"></i>Flight Booking</span>
+                                <h3>Flight Booking</h3>
+                                <p>Domestic charters, bush flights and regional commercial ticketing coordinated with precision to connect your itinerary.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Secure Flights</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_8.jpg" alt="SGR train ticket booking Nairobi Mombasa">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-train"></i>SGR Train Booking</span>
+                                <h3>SGR Train Booking</h3>
+                                <p>Premium Madaraka Express coordination for Nairobi–Mombasa travel, including luxury seating and private station transfers.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Book Train</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space" style="background: linear-gradient(135deg, rgba(245, 238, 227, 0.8), #fff);">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="sub-title">Event &amp; Specialized Travel</span>
+                    <h2>Exclusive support for corporate, wedding and specialist journeys</h2>
+                    <p>From incentive retreats to birdwatching safaris, our event travel services are designed to impress, engage and deliver flawless experiences.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-4">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_2.jpg" alt="corporate meetings and incentive travel">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-briefcase"></i>MICE Services</span>
+                                <h3>MICE Services</h3>
+                                <p>Corporate meetings, incentives, conferences and executive retreats delivered with premium venues, technology support and seamless on-the-ground coordination.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Plan Your Event</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_4.jpg" alt="destination wedding in East Africa">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-ring"></i>Destination Weddings</span>
+                                <h3>Destination Weddings</h3>
+                                <p>Luxury weddings, honeymoons and private beach ceremonies in coastal and safari settings with expert planning, styling and guest logistics.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Start Planning</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_16.jpg" alt="team building retreat in Kenya">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-hands-helping"></i>Team Building</span>
+                                <h3>Team Building</h3>
+                                <p>Outdoor corporate bonding, leadership activities and adventure retreats designed to inspire teamwork and rejuvenate your organization.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Create a Retreat</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_10.jpg" alt="educational travel in East Africa">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-graduation-cap"></i>Educational Tours</span>
+                                <h3>Educational Tours</h3>
+                                <p>School, university and research trips with customized fieldwork, cultural immersion and safe, reliable travel coordination.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Tailor a Program</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_15.jpg" alt="birdwatching safari in Kenya wetlands">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-dove"></i>Birdwatching Safaris</span>
+                                <h3>Birdwatching Safaris</h3>
+                                <p>Specialist birding tours led by certified ornithological guides across Kenya’s parks and wetlands for exceptional sightings and ecological insight.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Reserve a Tour</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space" style="background: linear-gradient(135deg, #fcfaf8 0%, #f2ece2 100%);">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="sub-title">Hospitality &amp; Travel Support</span>
+                    <h2>Premium support services that complement every journey</h2>
+                    <p>Our hospitality services ensure your travel experience remains seamless, secure and luxurious from arrival to departure.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_6.jpg" alt="hotel reservation services">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-hotel"></i>Hotel Reservations</span>
+                                <h3>Hotel Reservations</h3>
+                                <p>Luxury lodges, tented camps, city hotels and beach resorts selected for style, comfort and authentic East African hospitality.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Book Accommodation</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_12.jpg" alt="camping logistics for safari adventures">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-campground"></i>Camping Logistics</span>
+                                <h3>Camping Logistics</h3>
+                                <p>Full-service camping support with premium tents, gourmet chefs, guides and secure camp setups in safari wilderness and mountain regions.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Arrange Camping</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_18.jpg" alt="travel insurance and emergency evacuation cover">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-shield-alt"></i>Travel Insurance</span>
+                                <h3>Travel Insurance</h3>
+                                <p>Emergency evacuation cover facilitation, including AMREF Flying Doctors support, so you travel with total peace of mind.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Secure Coverage</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="support-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_14.jpg" alt="visa assistance for Kenya travel">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-passport"></i>Visa Assistance</span>
+                                <h3>Visa Assistance</h3>
+                                <p>Support obtaining Kenya eTA and regional travel guidance for a smooth arrival and complete border clearance support.</p>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Get Assistance</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space" style="background: linear-gradient(135deg, rgba(245, 238, 227, 0.75), rgba(255, 255, 255, 0.95));">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="sub-title">Featured Packages</span>
+                    <h2>Curated packages that capture the best of East Africa</h2>
+                    <p>Choose a hand-selected luxury journey with clear inclusions, destination highlights and a seamless booking path.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-3">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_5_1.jpg" alt="5-day luxury Maasai Mara safari">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-star"></i>5-Day Safari</span>
+                                <h3>Luxury Maasai Mara Safari</h3>
+                                <ul class="package-meta">
+                                    <li><span>Duration</span><strong>5 days</strong></li>
+                                    <li><span>Destination</span><strong>Maasai Mara</strong></li>
+                                    <li><span>Price</span><strong>KES 285,000</strong></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Book Package</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_3_5.jpg" alt="7-day Kenya coast escape">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-water"></i>7-Day Escape</span>
+                                <h3>Kenya Coast Escape</h3>
+                                <ul class="package-meta">
+                                    <li><span>Duration</span><strong>7 days</strong></li>
+                                    <li><span>Destination</span><strong>Diani &amp; Watamu</strong></li>
+                                    <li><span>Price</span><strong>KES 215,000</strong></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Reserve Now</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_17.jpg" alt="Mount Kenya adventure package">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-hiking"></i>Adventure</span>
+                                <h3>Mount Kenya Adventure</h3>
+                                <ul class="package-meta">
+                                    <li><span>Duration</span><strong>6 days</strong></li>
+                                    <li><span>Destination</span><strong>Mount Kenya</strong></li>
+                                    <li><span>Price</span><strong>KES 245,000</strong></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">See Details</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="feature-card">
+                            <img loading="lazy" src="assets/img/tour/tour_box_4.jpg" alt="luxury honeymoon safari package">
+                            <div class="card-body">
+                                <span class="card-label"><i class="fas fa-heart"></i>Honeymoon</span>
+                                <h3>Luxury Honeymoon Safari</h3>
+                                <ul class="package-meta">
+                                    <li><span>Duration</span><strong>8 days</strong></li>
+                                    <li><span>Destination</span><strong>Maasai Mara &amp; Coast</strong></li>
+                                    <li><span>Price</span><strong>KES 395,000</strong></li>
+                                </ul>
+                                <div class="card-action">
+                                    <a href="#booking-cta">Inquire Today</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space" style="background: linear-gradient(135deg, #f8f2e8 0%, #fff 100%);">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="sub-title">Why Choose Kaya</span>
+                    <h2>Trusted luxury travel expertise you can rely on</h2>
+                    <p>Every detail is handled by our experienced team so you can relax into the adventure, knowing your journey is in expert hands.</p>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-tile">
+                        <i class="fas fa-map-pin"></i>
+                        <h4>Local East African expertise</h4>
+                        <p>Our team is born here and connected to the best lodges, guides and private venues across Kenya and the region.</p>
+                    </div>
+                    <div class="feature-tile">
+                        <i class="fas fa-gem"></i>
+                        <h4>Luxury experience design</h4>
+                        <p>Each itinerary is built with premium accommodations, private transfers and signature service moments.</p>
+                    </div>
+                    <div class="feature-tile">
+                        <i class="fas fa-user-tie"></i>
+                        <h4>Professional safari guides</h4>
+                        <p>On-the-ground experts lead every safari with wildlife insight, safety oversight and storytelling flair.</p>
+                    </div>
+                    <div class="feature-tile">
+                        <i class="fas fa-fingerprint"></i>
+                        <h4>Personalized journeys</h4>
+                        <p>We create travel plans shaped by your interests, rhythm and expectations for a singular, memorable trip.</p>
+                    </div>
+                    <div class="feature-tile">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Safety &amp; reliability</h4>
+                        <p>From secure vehicles to trusted accommodations and emergency support, your wellbeing is our highest priority.</p>
+                    </div>
+                    <div class="feature-tile">
+                        <i class="fas fa-earth-africa"></i>
+                        <h4>Authentic African storytelling</h4>
+                        <p>We deliver meaningful moments with local culture, conservation and nature at the heart of each experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space" style="background: #fff;">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="sub-title">Testimonials</span>
+                    <h2>Stories from premium travellers who chose Kaya</h2>
+                    <p>Read authentic feedback from travellers who experienced the magic of East Africa with our personalized service and thoughtful planning.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-4">
+                        <article class="testimonial-card">
+                            <div class="card-body">
+                                <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                <blockquote>"Kaya designed a private Mara safari that felt effortless from arrival to departure. The lodges were exquisite, the guide was world-class and every detail was perfectly timed."</blockquote>
+                                <div class="author">
+                                    <div class="author-avatar">JM</div>
+                                    <div class="author-details">
+                                        <h5>James M.</h5>
+                                        <span>International Executive</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="testimonial-card">
+                            <div class="card-body">
+                                <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                <blockquote>"The coastal villa in Diani and the private snorkeling excursion were unforgettable. Kaya made sure every meal, guide and transfer exceeded our expectations."</blockquote>
+                                <div class="author">
+                                    <div class="author-avatar">KA</div>
+                                    <div class="author-details">
+                                        <h5>Karen A.</h5>
+                                        <span>Luxury Travel Enthusiast</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="testimonial-card">
+                            <div class="card-body">
+                                <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                <blockquote>"Our cultural tour was beautifully curated. The local dance experience and village visit felt authentic, thoughtful and deeply respectful."</blockquote>
+                                <div class="author">
+                                    <div class="author-avatar">SR</div>
+                                    <div class="author-details">
+                                        <h5>Sandra R.</h5>
+                                        <span>Family Traveler</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space" style="background: linear-gradient(135deg, rgba(5, 5, 5, 0.03) 0%, rgba(181, 140, 80, 0.08) 100%);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-9">
+                        <article class="faq-card">
+                            <div class="p-4 p-md-5">
+                                <div class="section-heading text-center mb-5">
+                                    <span class="sub-title">FAQ</span>
+                                    <h2>Questions travellers ask before booking</h2>
+                                    <p>Clear answers for the booking process, insurance, visas and the most important safari preparation steps.</p>
+                                </div>
+                                <div class="accordion" id="faqAccordion">
+                                    <div class="accordion-item" style="border:none;">
+                                        <h2 class="accordion-header" id="faqHeadingOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="false" aria-controls="faqOne">
+                                                How does the Kaya booking process work?
+                                            </button>
+                                        </h2>
+                                        <div id="faqOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                Send your travel details, preferred dates and interests, then our team will present a fully tailored proposal and refine it until it fits your vision. We guide you through payment, confirmations and pre-trip preparation.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item" style="border:none;">
+                                        <h2 class="accordion-header" id="faqHeadingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                                                What is your cancellation policy?
+                                            </button>
+                                        </h2>
+                                        <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                Cancellations made more than 60 days before departure are fully refundable. Changes within 30 days may incur fees, and we strongly recommend travel insurance to protect against last-minute adjustments.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item" style="border:none;">
+                                        <h2 class="accordion-header" id="faqHeadingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                                                Do you arrange travel insurance?
+                                            </button>
+                                        </h2>
+                                        <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                Yes. We arrange travel insurance packages, including emergency evacuation cover and AMREF Flying Doctors support, so your journey is protected from unexpected events.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item" style="border:none;">
+                                        <h2 class="accordion-header" id="faqHeadingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                                                What visa requirements apply to Kenya?
+                                            </button>
+                                        </h2>
+                                        <div id="faqFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                Most visitors require a Kenya eTA, which can be obtained online before arrival. We also provide visa guidance for regional travel and advise on necessary documents for your specific nationality.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item" style="border:none;">
+                                        <h2 class="accordion-header" id="faqHeadingFive">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive">
+                                                How should I prepare for safari travel?
+                                            </button>
+                                        </h2>
+                                        <div id="faqFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                Pack lightweight layers, sun protection, comfortable walking shoes and any necessary medication. We provide a detailed pre-departure guide with packing lists, health advice and destination insights.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item" style="border:none;">
+                                        <h2 class="accordion-header" id="faqHeadingSix">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqSix" aria-expanded="false" aria-controls="faqSix">
+                                                What payment methods do you accept?
+                                            </button>
+                                        </h2>
+                                        <div id="faqSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                We accept bank transfer, credit card, M-Pesa and PayPal. A 30% deposit secures your booking, with balance due 30 days before departure for most services.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking-cta" class="space" style="background: linear-gradient(135deg, #121515 0%, #1f2628 100%);">
+            <div class="container">
+                <div class="booking-cta">
+                    <div class="row align-items-center gy-4">
+                        <div class="col-lg-7">
+                            <div class="cta-content">
+                                <span class="sub-title" style="color: rgba(255,255,255,0.75);">Plan Your African Adventure</span>
+                                <h2>Begin your journey with a private consultation from our specialists</h2>
+                                <p>Reach out today and receive a tailored itinerary, availability confirmation and a premium service proposal designed to deliver the best of East Africa.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="cta-actions">
+                                <a href="https://wa.me/254701234567?text=Hi%20Kaya%20Experience,%20I%27m%20ready%20to%20plan%20my%20East%20African%20adventure" class="th-btn style1 th-icon" style="justify-content:center; background:#25D366; border:none;">WhatsApp Booking</a>
+                                <a href="contact.html#inquiry-form" class="th-btn style3 th-icon" style="justify-content:center;">Inquiry Form</a>
+                                <a href="tel:+254701234567" class="th-btn" style="justify-content:center; background:rgba(255,255,255,0.12); color:#fff; border:1px solid rgba(255,255,255,0.16);">Call Us Direct</a>
+                            </div>
+                            <div style="margin-top:1.6rem; color: rgba(255,255,255,0.7); font-size:0.95rem; line-height:1.8;">Our Concierge Team responds within 2-4 hours for bespoke proposals and immediate availability checks.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-wrapper bg-title footer-layout2">
+        <div class="widget-area">
+            <div class="container">
+                <div class="newsletter-area">
+                    <div class="newsletter-top">
+                        <div class="row gy-4 align-items-center">
+                            <div class="col-lg-5">
+                                <h2 class="newsletter-title text-white text-capitalize mb-0">Stay connected to East Africa</h2>
+                            </div>
+                            <div class="col-lg-7">
+                                <form class="newsletter-form style2">
+                                    <input class="form-control" type="email" placeholder="Enter Email" required>
+                                    <button type="submit" class="th-btn style1">Subscribe Now <img src="assets/img/icon/plane2.svg" alt=""></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="widget footer-widget">
+                            <div class="th-widget-about">
+                                <div class="about-logo">
+                                    <a href="index.html"><img src="assets/img/logo3.svg" alt="Kaya Experience Limited"></a>
+                                </div>
+                                <p class="about-text">Luxury East African travel crafted around local people, wildlife and unforgettable moments.</p>
+                                <div class="th-social">
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget widget_nav_menu footer-widget">
+                            <h3 class="widget_title">Quick Links</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="tour.html">Tours</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">Contact</h3>
+                            <div class="th-widget-contact">
+                                <div class="info-box_text">
+                                    <div class="icon"><img src="assets/img/icon/phone.svg" alt="phone"></div>
+                                    <div class="details">
+                                        <p><a href="tel:+254701234567" class="info-box_link">+254 701 234 567</a></p>
+                                    </div>
+                                </div>
+                                <div class="info-box_text">
+                                    <div class="icon"><img src="assets/img/icon/envelope.svg" alt="email"></div>
+                                    <div class="details">
+                                        <p><a href="mailto:info@kayaexperience.co.ke" class="info-box_link">info@kayaexperience.co.ke</a></p>
+                                    </div>
+                                </div>
+                                <div class="info-box_text">
+                                    <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="location"></div>
+                                    <div class="details">
+                                        <p>Nairobi, Kenya</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">Popular Services</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li><a href="tour.html">Wildlife Safaris</a></li>
+                                    <li><a href="tour.html">Beach Escapes</a></li>
+                                    <li><a href="tour.html">Cultural Tours</a></li>
+                                    <li><a href="contact.html">Private Travel</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright-text">Copyright 2026 <a href="index.html">Kaya Experience Limited</a>. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-end d-none d-md-block">
+                        <div class="footer-card">
+                            <span class="title">We Accept</span>
+                            <img src="assets/img/shape/cards.png" alt="payment cards">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </div>
+
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/matter.min.js"></script>
+    <script src="assets/js/matterjs-custom.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
