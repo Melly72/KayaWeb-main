@@ -19694,11 +19694,14 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  cursor: default;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
@@ -19803,12 +19806,33 @@ span.select2-selection.select2-selection--single:focus {
   background-color: var(--white-color);
 }
 
-.tour-card:hover .tour-content {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+/* Make the card image slightly zoomed in by default and zoom out on hover */
+.tour-card {
+  overflow: hidden;
+}
+
+.tour-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  -webkit-transition: transform 0.45s ease-in-out;
+  transition: transform 0.45s ease-in-out;
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
+.tour-card:hover img {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+          
+
+/* When hovering over the text/content area, slightly zoom the content out */
+.tour-card .tour-content:hover {
+  -webkit-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+          transform: scale(0.98);
+}
+  
 }
 
 .tour-text {
@@ -19818,6 +19842,7 @@ span.select2-selection.select2-selection--single:focus {
   max-width: 687px;
   display: block;
   margin: auto auto 60px auto;
+  
   /* Large devices */
 }
 
@@ -22673,14 +22698,49 @@ span.select2-selection.select2-selection--single:focus {
     flex-shrink: 0;
 }
 
+/* Default: slight zoom in on images, zoom out on card hover */
+.tour-card > img {
+  -webkit-transition: transform 0.45s ease-in-out;
+  transition: transform 0.45s ease-in-out;
+  -webkit-transform: scale(1.06);
+      transform: scale(1.06);
+}
+
+.tour-card:hover > img {
+  -webkit-transform: scale(0.98);
+      transform: scale(0.98);
+}
+
 .tour-card .tour-content {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    background: #fff;
-    position: static;
-    transform: none;
+  /* Ensure this block sits in normal flow below the image and fills the card */
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #fff;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  z-index: auto !important;
+  box-sizing: border-box;
+  border: none !important;
+  -webkit-backdrop-filter: none !important;
+      backdrop-filter: none !important;
+  border-radius: 0 0 12px 12px;
+}
+
+.tour-card .tour-content p,
+.tour-card .tour-content ul,
+.tour-card .tour-content h3,
+.tour-card .tour-content .tour-bottom {
+    margin: 0;
+}
+
+.tour-card .tour-content:hover {
+    /* Subtle hover lift without resizing layout */
+    transform: translateY(-2px);
 }
 
 .tour-card .tour-location {
