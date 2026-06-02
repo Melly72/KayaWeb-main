@@ -320,19 +320,19 @@
         watchSlidesProgress: true,
     });
 
-    var swiper = new Swiper('.hero-slider-2', {
+    var swiperHero = new Swiper('#heroSlide2', {
         spaceBetween: 10,
         thumbs: {
             swiper: swiper,
         },
         effect: "fade",
         pagination: {
-            el: '.swiper-pagination',
+            el: '#heroSlide2 .swiper-pagination',
             clickable: true
         },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
+            nextEl: '#heroSlide2 .slider-next',
+            prevEl: '#heroSlide2 .slider-prev'
         },
         autoplay: {
             delay: 6000,
